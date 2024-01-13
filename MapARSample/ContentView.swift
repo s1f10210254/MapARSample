@@ -6,19 +6,22 @@
 //
 
 import SwiftUI
-
+import MapKit
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+  var body: some View {
+    NavigationView{
+      Map()
+        .toolbar{
+          NavigationLink("ナビゲーション"){}
         }
-        .padding()
     }
+  }
 }
 
-#Preview {
+
+
+struct ContentView_Previews: PreviewProvider{
+  static var previews: some View{
     ContentView()
+  }
 }

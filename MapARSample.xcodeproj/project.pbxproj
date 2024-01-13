@@ -95,6 +95,9 @@
 		F566277B2B529D6F00BEFE68 /* MapARSample */ = {
 			isa = PBXGroup;
 			children = (
+				F56627A92B529F8C00BEFE68 /* ViewModels */,
+				F56627A82B529F8200BEFE68 /* Views */,
+				F56627A72B529F7000BEFE68 /* Models */,
 				F566277C2B529D6F00BEFE68 /* MapARSampleApp.swift */,
 				F566277E2B529D6F00BEFE68 /* ContentView.swift */,
 				F56627802B529D7000BEFE68 /* Assets.xcassets */,
@@ -127,6 +130,27 @@
 				F566279A2B529D7000BEFE68 /* MapARSampleUITestsLaunchTests.swift */,
 			);
 			path = MapARSampleUITests;
+			sourceTree = "<group>";
+		};
+		F56627A72B529F7000BEFE68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F56627A82B529F8200BEFE68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F56627A92B529F8C00BEFE68 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
