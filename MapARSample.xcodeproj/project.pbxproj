@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F566277D2B529D6F00BEFE68 /* MapARSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566277C2B529D6F00BEFE68 /* MapARSampleApp.swift */; };
-		F566277F2B529D6F00BEFE68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566277E2B529D6F00BEFE68 /* ContentView.swift */; };
 		F56627812B529D7000BEFE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56627802B529D7000BEFE68 /* Assets.xcassets */; };
 		F56627852B529D7000BEFE68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56627842B529D7000BEFE68 /* Preview Assets.xcassets */; };
 		F566278F2B529D7000BEFE68 /* MapARSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566278E2B529D7000BEFE68 /* MapARSampleTests.swift */; };
 		F56627992B529D7000BEFE68 /* MapARSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627982B529D7000BEFE68 /* MapARSampleUITests.swift */; };
 		F566279B2B529D7000BEFE68 /* MapARSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566279A2B529D7000BEFE68 /* MapARSampleUITestsLaunchTests.swift */; };
+		F56627AB2B52C86600BEFE68 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627AA2B52C86600BEFE68 /* SecondView.swift */; };
+		F56627AD2B52CAB200BEFE68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627AC2B52CAB200BEFE68 /* ContentView.swift */; };
+		F56627B12B52CAE800BEFE68 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B02B52CAE800BEFE68 /* ContentViewModel.swift */; };
+		F56627B42B52CB2400BEFE68 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */; };
+		F56627B62B52CD0400BEFE68 /* MapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B52B52CD0400BEFE68 /* MapData.swift */; };
+		F56627B82B52CD1C00BEFE68 /* SecoundViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B72B52CD1C00BEFE68 /* SecoundViewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		F56627792B529D6F00BEFE68 /* MapARSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapARSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F566277C2B529D6F00BEFE68 /* MapARSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapARSampleApp.swift; sourceTree = "<group>"; };
-		F566277E2B529D6F00BEFE68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F56627802B529D7000BEFE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56627822B529D7000BEFE68 /* MapARSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapARSample.entitlements; sourceTree = "<group>"; };
 		F56627842B529D7000BEFE68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +49,12 @@
 		F56627942B529D7000BEFE68 /* MapARSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapARSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56627982B529D7000BEFE68 /* MapARSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapARSampleUITests.swift; sourceTree = "<group>"; };
 		F566279A2B529D7000BEFE68 /* MapARSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapARSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F56627AA2B52C86600BEFE68 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		F56627AC2B52CAB200BEFE68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F56627B02B52CAE800BEFE68 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		F56627B52B52CD0400BEFE68 /* MapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapData.swift; sourceTree = "<group>"; };
+		F56627B72B52CD1C00BEFE68 /* SecoundViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoundViewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,6 @@
 				F56627A82B529F8200BEFE68 /* Views */,
 				F56627A72B529F7000BEFE68 /* Models */,
 				F566277C2B529D6F00BEFE68 /* MapARSampleApp.swift */,
-				F566277E2B529D6F00BEFE68 /* ContentView.swift */,
 				F56627802B529D7000BEFE68 /* Assets.xcassets */,
 				F56627822B529D7000BEFE68 /* MapARSample.entitlements */,
 				F56627832B529D7000BEFE68 /* Preview Content */,
@@ -135,6 +144,8 @@
 		F56627A72B529F7000BEFE68 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F56627B52B52CD0400BEFE68 /* MapData.swift */,
+				F56627B72B52CD1C00BEFE68 /* SecoundViewData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +153,8 @@
 		F56627A82B529F8200BEFE68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F56627AA2B52C86600BEFE68 /* SecondView.swift */,
+				F56627AC2B52CAB200BEFE68 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +162,8 @@
 		F56627A92B529F8C00BEFE68 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F56627B02B52CAE800BEFE68 /* ContentViewModel.swift */,
+				F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -283,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F566277F2B529D6F00BEFE68 /* ContentView.swift in Sources */,
+				F56627AB2B52C86600BEFE68 /* SecondView.swift in Sources */,
+				F56627AD2B52CAB200BEFE68 /* ContentView.swift in Sources */,
+				F56627B62B52CD0400BEFE68 /* MapData.swift in Sources */,
 				F566277D2B529D6F00BEFE68 /* MapARSampleApp.swift in Sources */,
+				F56627B42B52CB2400BEFE68 /* SecondViewModel.swift in Sources */,
+				F56627B82B52CD1C00BEFE68 /* SecoundViewData.swift in Sources */,
+				F56627B12B52CAE800BEFE68 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

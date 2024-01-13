@@ -1,8 +1,17 @@
-//
-//  SecondView.swift
-//  MapARSample
-//
-//  Created by Hiroki on 2024/01/13.
-//
+import SwiftUI
 
-import Foundation
+struct SecondView: View {
+    @ObservedObject var viewModel: SecondViewModel
+
+    var body: some View {
+        // SecondView の UI と、viewModel を利用した処理を追加する
+        Text("Second View")
+    }
+}
+
+struct SecondView_Previews: PreviewProvider {
+    static var previews: some View {
+        SecondView(viewModel: SecondViewModel())
+    }
+}
+
