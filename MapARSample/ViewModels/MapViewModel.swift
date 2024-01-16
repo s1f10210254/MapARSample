@@ -1,8 +1,9 @@
-//
-//  MapViewModel.swift
-//  MapARSample
-//
-//  Created by Hiroki on 2024/01/14.
-//
-
 import Foundation
+import SwiftUI
+
+class MapViewModel: ObservableObject{
+  @Published var mapViewData: MapData
+  init(){
+    self.mapViewData = MapData()
+  }
+}

@@ -19,6 +19,14 @@
 		F56627B42B52CB2400BEFE68 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */; };
 		F56627B62B52CD0400BEFE68 /* MapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B52B52CD0400BEFE68 /* MapData.swift */; };
 		F56627B82B52CD1C00BEFE68 /* SecoundViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B72B52CD1C00BEFE68 /* SecoundViewData.swift */; };
+		F56627BA2B52D9F500BEFE68 /* ARContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B92B52D9F500BEFE68 /* ARContentView.swift */; };
+		F56627BC2B52DABA00BEFE68 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627BB2B52DABA00BEFE68 /* ARViewModel.swift */; };
+		F56627BE2B52DB3100BEFE68 /* ARData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627BD2B52DB3100BEFE68 /* ARData.swift */; };
+		F56627C02B52DE2900BEFE68 /* ToolbarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */; };
+		F56627C32B52DFC500BEFE68 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627C22B52DFC500BEFE68 /* MapView.swift */; };
+		F56627C52B52E29400BEFE68 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627C42B52E29400BEFE68 /* MapViewModel.swift */; };
+		F56627CC2B53208100BEFE68 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627CB2B53208100BEFE68 /* ARViewContainer.swift */; };
+		F56627CE2B53227E00BEFE68 /* ARScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627CD2B53227E00BEFE68 /* ARScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,14 @@
 		F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 		F56627B52B52CD0400BEFE68 /* MapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapData.swift; sourceTree = "<group>"; };
 		F56627B72B52CD1C00BEFE68 /* SecoundViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoundViewData.swift; sourceTree = "<group>"; };
+		F56627B92B52D9F500BEFE68 /* ARContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContentView.swift; sourceTree = "<group>"; };
+		F56627BB2B52DABA00BEFE68 /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
+		F56627BD2B52DB3100BEFE68 /* ARData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARData.swift; sourceTree = "<group>"; };
+		F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButtons.swift; sourceTree = "<group>"; };
+		F56627C22B52DFC500BEFE68 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F56627C42B52E29400BEFE68 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		F56627CB2B53208100BEFE68 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		F56627CD2B53227E00BEFE68 /* ARScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +162,7 @@
 			children = (
 				F56627B52B52CD0400BEFE68 /* MapData.swift */,
 				F56627B72B52CD1C00BEFE68 /* SecoundViewData.swift */,
+				F56627BD2B52DB3100BEFE68 /* ARData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,8 +170,12 @@
 		F56627A82B529F8200BEFE68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F56627CA2B53205200BEFE68 /* @compornent */,
 				F56627AA2B52C86600BEFE68 /* SecondView.swift */,
 				F56627AC2B52CAB200BEFE68 /* ContentView.swift */,
+				F56627B92B52D9F500BEFE68 /* ARContentView.swift */,
+				F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */,
+				F56627C22B52DFC500BEFE68 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,9 +184,28 @@
 			isa = PBXGroup;
 			children = (
 				F56627B02B52CAE800BEFE68 /* ContentViewModel.swift */,
+				F56627C42B52E29400BEFE68 /* MapViewModel.swift */,
 				F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */,
+				F56627BB2B52DABA00BEFE68 /* ARViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F56627CA2B53205200BEFE68 /* @compornent */ = {
+			isa = PBXGroup;
+			children = (
+				F56627CF2B5325CE00BEFE68 /* AR */,
+			);
+			path = "@compornent";
+			sourceTree = "<group>";
+		};
+		F56627CF2B5325CE00BEFE68 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				F56627CB2B53208100BEFE68 /* ARViewContainer.swift */,
+				F56627CD2B53227E00BEFE68 /* ARScene.swift */,
+			);
+			path = AR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +338,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56627BC2B52DABA00BEFE68 /* ARViewModel.swift in Sources */,
+				F56627C32B52DFC500BEFE68 /* MapView.swift in Sources */,
 				F56627AB2B52C86600BEFE68 /* SecondView.swift in Sources */,
+				F56627CC2B53208100BEFE68 /* ARViewContainer.swift in Sources */,
 				F56627AD2B52CAB200BEFE68 /* ContentView.swift in Sources */,
+				F56627CE2B53227E00BEFE68 /* ARScene.swift in Sources */,
+				F56627C52B52E29400BEFE68 /* MapViewModel.swift in Sources */,
 				F56627B62B52CD0400BEFE68 /* MapData.swift in Sources */,
 				F566277D2B529D6F00BEFE68 /* MapARSampleApp.swift in Sources */,
+				F56627C02B52DE2900BEFE68 /* ToolbarButtons.swift in Sources */,
 				F56627B42B52CB2400BEFE68 /* SecondViewModel.swift in Sources */,
+				F56627BE2B52DB3100BEFE68 /* ARData.swift in Sources */,
+				F56627BA2B52D9F500BEFE68 /* ARContentView.swift in Sources */,
 				F56627B82B52CD1C00BEFE68 /* SecoundViewData.swift in Sources */,
 				F56627B12B52CAE800BEFE68 /* ContentViewModel.swift in Sources */,
 			);
@@ -468,6 +516,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラのアクセスを許可";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -506,6 +555,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラのアクセスを許可";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

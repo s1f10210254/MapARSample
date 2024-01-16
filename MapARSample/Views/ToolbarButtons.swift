@@ -1,8 +1,27 @@
-//
-//  ToolbarButtons.swift
-//  MapARSample
-//
-//  Created by Hiroki on 2024/01/14.
-//
+import SwiftUI
 
-import Foundation
+struct ToolbarButtons: View {
+  var body: some View {
+    HStack{
+      NavigationLink(
+        destination: MapView(),
+        label: {
+          Text("Map")
+        }
+      )
+      NavigationLink(
+        destination: SecondView(viewModel: SecondViewModel()),
+        label: {
+          Text("secound")
+        }
+      )
+      NavigationLink(
+        destination: ARContentView(viewModel: ARViewModel()),
+        label: {
+          Text("AR")
+        }
+      )
+
+    }
+  }
+}
