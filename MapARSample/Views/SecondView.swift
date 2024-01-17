@@ -5,7 +5,8 @@ struct SecondView: View {
 
     var body: some View {
         // SecondView の UI と、viewModel を利用した処理を追加する
-        Text("Second View")
+      Text("Second View").padding()
+
     }
 }
 
