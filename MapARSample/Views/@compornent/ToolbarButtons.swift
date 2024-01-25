@@ -16,7 +16,7 @@ struct ToolbarButtons: View {
         }
       )
       NavigationLink(
-        destination: ARContentView(viewModel: ARViewModel()),
+        destination: ThirdView(),
         label: {
           Text("AR")
         }
@@ -25,3 +25,4 @@ struct ToolbarButtons: View {
     }
   }
 }
+
