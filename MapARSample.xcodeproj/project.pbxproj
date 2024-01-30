@@ -24,6 +24,7 @@
 		F56627C02B52DE2900BEFE68 /* ToolbarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */; };
 		F56627C32B52DFC500BEFE68 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627C22B52DFC500BEFE68 /* MapView.swift */; };
 		F56627C52B52E29400BEFE68 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627C42B52E29400BEFE68 /* MapViewModel.swift */; };
+		F576FAB02B6914EC00FE209E /* SNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F576FAAF2B6914EC00FE209E /* SNSView.swift */; };
 		F5E1233F2B620AA40088EA4D /* Magnet.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E1233E2B620AA40088EA4D /* Magnet.usdz */; };
 		F5E123412B620CB70088EA4D /* Iphone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E123402B620CB70088EA4D /* Iphone.usdz */; };
 		F5E123432B620E160088EA4D /* nathan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E123422B620E160088EA4D /* nathan.usdz */; };
@@ -79,6 +80,7 @@
 		F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButtons.swift; sourceTree = "<group>"; };
 		F56627C22B52DFC500BEFE68 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F56627C42B52E29400BEFE68 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		F576FAAF2B6914EC00FE209E /* SNSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSView.swift; sourceTree = "<group>"; };
 		F5E1233E2B620AA40088EA4D /* Magnet.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Magnet.usdz; sourceTree = "<group>"; };
 		F5E123402B620CB70088EA4D /* Iphone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Iphone.usdz; sourceTree = "<group>"; };
 		F5E123422B620E160088EA4D /* nathan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = nathan.usdz; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				F5E123462B66816B0088EA4D /* RulerView.swift */,
 				F5E839692B61BFEE0017EB3D /* ThirdView.swift */,
 				F5E123442B6211DB0088EA4D /* CameraARView.swift */,
+				F576FAAF2B6914EC00FE209E /* SNSView.swift */,
 				F5E123402B620CB70088EA4D /* Iphone.usdz */,
 				F5E123422B620E160088EA4D /* nathan.usdz */,
 				F5E1233E2B620AA40088EA4D /* Magnet.usdz */,
@@ -401,6 +404,7 @@
 				F56627AB2B52C86600BEFE68 /* SecondView.swift in Sources */,
 				F5E123CA2B67307E0088EA4D /* AuthViewModel.swift in Sources */,
 				F56627AD2B52CAB200BEFE68 /* ContentView.swift in Sources */,
+				F576FAB02B6914EC00FE209E /* SNSView.swift in Sources */,
 				F56627C52B52E29400BEFE68 /* MapViewModel.swift in Sources */,
 				F56627B62B52CD0400BEFE68 /* MapData.swift in Sources */,
 				F566277D2B529D6F00BEFE68 /* MapARSampleApp.swift in Sources */,
