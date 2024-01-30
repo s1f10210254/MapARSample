@@ -49,13 +49,15 @@ class AuthViewModel: ObservableObject {
   //    }
   //  }
 
-  func signUp(email: String, password: String){
+  func signUp(email: String, password: String, NickName: String, userId: String){
     Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
       DispatchQueue.main.async{
         if let result = result, error == nil{
           self?.uid = result.user.uid
-          self?.userId = "sampleUserId"
-          self?.NickName = "sampleNickName"
+//          self?.userId = "sampleUserId"
+//          self?.NickName = "sampleNickName"
+          self?.NickName = NickName
+          self?.userId = userId
 
           if let unwrappedUserUid = self?.uid,
              let unwrappedUserId = self?.userId,

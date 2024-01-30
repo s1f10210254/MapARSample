@@ -1,37 +1,3 @@
-//import SwiftUI
-//
-//class SNSViewModel: ObservableObject {
-//  func postUserData(uid: String, userId: String, nickname: String){
-//    guard let url = URL(string: "localhost:31577/userdata") else{
-//      print("Invalid serevr Url")
-//      return
-//    }
-//
-//    var request = URLRequest(url: url)
-//    request.httpMethod = "POST"
-//    request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-//
-//    let postData: [String: Any] = ["uid": uid, "userId": userId, "NickName": nickname]
-//    do{
-//      let jsonData = try JSONSerialization.data(withJSONObject: postData)
-//      request.httpBody = jsonData
-//    }catch{
-//      print("Error creating JOSN data: \(error.localizedDescription)")
-//      return
-//    }
-//
-//    URLSession.shared.dataTask(with: request) {data, response, error in
-//      if let error = error {
-//        print("Error sending user data to server: \(error.localizedDescription)")
-//      }else if let data = data{
-//        if let responseString = String(data: data, encoding: .utf8){
-//          print("Server response: \(responseString)")
-//        }
-//      }
-//    }
-//  }
-//}
-
 import SwiftUI
 
 class SNSViewModel: ObservableObject {

@@ -29,7 +29,7 @@ struct SignUpView: View {
 
 
       Button("Sign Up") {
-        viewModel.signUp(email: email, password: password)
+        viewModel.signUp(email: email, password: password, NickName: NickName, userId: userId)
       }
 
       if viewModel.isAuthenticated {
