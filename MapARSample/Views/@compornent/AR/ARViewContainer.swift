@@ -1,14 +1,16 @@
-import SwiftUI
+import RealityKit
 import ARKit
+import SwiftUI
 
 struct ARViewContainer: UIViewRepresentable {
-  var arSceneView = ARSCNView()
-  func makeUIView(context: Context) -> some ARSCNView {
-    arSceneView.session = ARSession()
-    arSceneView.automaticallyUpdatesLighting = true
-    return arSceneView
-  }
-  func updateUIView(_ uiView: UIViewType, context: Context) {
-    
-  }
+
+    func makeUIView(context: Context) -> ARView {
+
+        let arView = ARView(frame: .zero, cameraMode: .ar, automaticallyConfigureSession: true)
+        arView.addTapGesture()
+
+        return arView
+    }
+
+    func updateUIView(_ uiView: ARView, context: Context) {}
 }

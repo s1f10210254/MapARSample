@@ -1,8 +1,18 @@
-//
-//  ResetPasswordPage.swift
-//  MapARSample
-//
-//  Created by Hiroki on 2024/01/29.
-//
+import SwiftUI
 
-import Foundation
+struct ResetPasswordView: View {
+    @State private var email: String = ""
+    @ObservedObject var viewModel: AuthViewModel
+
+    var body: some View {
+        VStack {
+            TextField("Email", text: $email)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+
+            Button("Reset Password") {
+                viewModel.resetPassword(email: email)
+            }
+        }
+    }
+}

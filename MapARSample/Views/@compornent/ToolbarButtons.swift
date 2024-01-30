@@ -21,6 +21,12 @@ struct ToolbarButtons: View {
           Text("AR")
         }
       )
+      NavigationLink(
+        destination: RulerView(),
+        label: {
+          Text("Ruler")
+        }
+      )
 
     }
   }

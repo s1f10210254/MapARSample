@@ -19,14 +19,25 @@
 		F56627B42B52CB2400BEFE68 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */; };
 		F56627B62B52CD0400BEFE68 /* MapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B52B52CD0400BEFE68 /* MapData.swift */; };
 		F56627B82B52CD1C00BEFE68 /* SecoundViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B72B52CD1C00BEFE68 /* SecoundViewData.swift */; };
-		F56627BA2B52D9F500BEFE68 /* ARContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627B92B52D9F500BEFE68 /* ARContentView.swift */; };
 		F56627BC2B52DABA00BEFE68 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627BB2B52DABA00BEFE68 /* ARViewModel.swift */; };
 		F56627BE2B52DB3100BEFE68 /* ARData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627BD2B52DB3100BEFE68 /* ARData.swift */; };
 		F56627C02B52DE2900BEFE68 /* ToolbarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */; };
 		F56627C32B52DFC500BEFE68 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627C22B52DFC500BEFE68 /* MapView.swift */; };
 		F56627C52B52E29400BEFE68 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627C42B52E29400BEFE68 /* MapViewModel.swift */; };
-		F56627CC2B53208100BEFE68 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627CB2B53208100BEFE68 /* ARViewContainer.swift */; };
-		F56627CE2B53227E00BEFE68 /* ARScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627CD2B53227E00BEFE68 /* ARScene.swift */; };
+		F5E1233F2B620AA40088EA4D /* Magnet.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E1233E2B620AA40088EA4D /* Magnet.usdz */; };
+		F5E123412B620CB70088EA4D /* Iphone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E123402B620CB70088EA4D /* Iphone.usdz */; };
+		F5E123432B620E160088EA4D /* nathan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E123422B620E160088EA4D /* nathan.usdz */; };
+		F5E123452B6211DB0088EA4D /* CameraARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E123442B6211DB0088EA4D /* CameraARView.swift */; };
+		F5E123472B66816B0088EA4D /* RulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E123462B66816B0088EA4D /* RulerView.swift */; };
+		F5E123492B66822A0088EA4D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E123482B66822A0088EA4D /* Coordinator.swift */; };
+		F5E123C72B672F6E0088EA4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5E123C62B672F6E0088EA4D /* GoogleService-Info.plist */; };
+		F5E123CA2B67307E0088EA4D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E123C92B67307E0088EA4D /* AuthViewModel.swift */; };
+		F5E123CC2B6732D40088EA4D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E123CB2B6732D40088EA4D /* SignInView.swift */; };
+		F5E123CF2B6733070088EA4D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E123CE2B6733070088EA4D /* SignUpView.swift */; };
+		F5E123D12B6733350088EA4D /* ResetPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E123D02B6733350088EA4D /* ResetPasswordPage.swift */; };
+		F5E123D32B67338D0088EA4D /* HelloPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E123D22B67338D0088EA4D /* HelloPage.swift */; };
+		F5E123D62B6733F10088EA4D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F5E123D52B6733F10088EA4D /* FirebaseAuth */; };
+		F5E8396A2B61BFEE0017EB3D /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E839692B61BFEE0017EB3D /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,14 +74,24 @@
 		F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 		F56627B52B52CD0400BEFE68 /* MapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapData.swift; sourceTree = "<group>"; };
 		F56627B72B52CD1C00BEFE68 /* SecoundViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoundViewData.swift; sourceTree = "<group>"; };
-		F56627B92B52D9F500BEFE68 /* ARContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContentView.swift; sourceTree = "<group>"; };
 		F56627BB2B52DABA00BEFE68 /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 		F56627BD2B52DB3100BEFE68 /* ARData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARData.swift; sourceTree = "<group>"; };
 		F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButtons.swift; sourceTree = "<group>"; };
 		F56627C22B52DFC500BEFE68 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F56627C42B52E29400BEFE68 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
-		F56627CB2B53208100BEFE68 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
-		F56627CD2B53227E00BEFE68 /* ARScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScene.swift; sourceTree = "<group>"; };
+		F5E1233E2B620AA40088EA4D /* Magnet.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Magnet.usdz; sourceTree = "<group>"; };
+		F5E123402B620CB70088EA4D /* Iphone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Iphone.usdz; sourceTree = "<group>"; };
+		F5E123422B620E160088EA4D /* nathan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = nathan.usdz; sourceTree = "<group>"; };
+		F5E123442B6211DB0088EA4D /* CameraARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraARView.swift; sourceTree = "<group>"; };
+		F5E123462B66816B0088EA4D /* RulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerView.swift; sourceTree = "<group>"; };
+		F5E123482B66822A0088EA4D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F5E123C62B672F6E0088EA4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F5E123C92B67307E0088EA4D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F5E123CB2B6732D40088EA4D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F5E123CE2B6733070088EA4D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F5E123D02B6733350088EA4D /* ResetPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordPage.swift; sourceTree = "<group>"; };
+		F5E123D22B67338D0088EA4D /* HelloPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPage.swift; sourceTree = "<group>"; };
+		F5E839692B61BFEE0017EB3D /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E123D62B6733F10088EA4D /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +127,7 @@
 				F566278D2B529D7000BEFE68 /* MapARSampleTests */,
 				F56627972B529D7000BEFE68 /* MapARSampleUITests */,
 				F566277A2B529D6F00BEFE68 /* Products */,
+				F5E123D42B6733F10088EA4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +144,7 @@
 		F566277B2B529D6F00BEFE68 /* MapARSample */ = {
 			isa = PBXGroup;
 			children = (
+				F5E123C62B672F6E0088EA4D /* GoogleService-Info.plist */,
 				F56627A92B529F8C00BEFE68 /* ViewModels */,
 				F56627A82B529F8200BEFE68 /* Views */,
 				F56627A72B529F7000BEFE68 /* Models */,
@@ -173,9 +197,13 @@
 				F56627CA2B53205200BEFE68 /* @compornent */,
 				F56627AA2B52C86600BEFE68 /* SecondView.swift */,
 				F56627AC2B52CAB200BEFE68 /* ContentView.swift */,
-				F56627B92B52D9F500BEFE68 /* ARContentView.swift */,
-				F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */,
 				F56627C22B52DFC500BEFE68 /* MapView.swift */,
+				F5E123462B66816B0088EA4D /* RulerView.swift */,
+				F5E839692B61BFEE0017EB3D /* ThirdView.swift */,
+				F5E123442B6211DB0088EA4D /* CameraARView.swift */,
+				F5E123402B620CB70088EA4D /* Iphone.usdz */,
+				F5E123422B620E160088EA4D /* nathan.usdz */,
+				F5E1233E2B620AA40088EA4D /* Magnet.usdz */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +215,7 @@
 				F56627C42B52E29400BEFE68 /* MapViewModel.swift */,
 				F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */,
 				F56627BB2B52DABA00BEFE68 /* ARViewModel.swift */,
+				F5E123C92B67307E0088EA4D /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -194,18 +223,29 @@
 		F56627CA2B53205200BEFE68 /* @compornent */ = {
 			isa = PBXGroup;
 			children = (
-				F56627CF2B5325CE00BEFE68 /* AR */,
+				F5E123CD2B6732EB0088EA4D /* login */,
+				F56627BF2B52DE2900BEFE68 /* ToolbarButtons.swift */,
+				F5E123482B66822A0088EA4D /* Coordinator.swift */,
 			);
 			path = "@compornent";
 			sourceTree = "<group>";
 		};
-		F56627CF2B5325CE00BEFE68 /* AR */ = {
+		F5E123CD2B6732EB0088EA4D /* login */ = {
 			isa = PBXGroup;
 			children = (
-				F56627CB2B53208100BEFE68 /* ARViewContainer.swift */,
-				F56627CD2B53227E00BEFE68 /* ARScene.swift */,
+				F5E123CB2B6732D40088EA4D /* SignInView.swift */,
+				F5E123D22B67338D0088EA4D /* HelloPage.swift */,
+				F5E123D02B6733350088EA4D /* ResetPasswordPage.swift */,
+				F5E123CE2B6733070088EA4D /* SignUpView.swift */,
 			);
-			path = AR;
+			path = login;
+			sourceTree = "<group>";
+		};
+		F5E123D42B6733F10088EA4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +264,9 @@
 			dependencies = (
 			);
 			name = MapARSample;
+			packageProductDependencies = (
+				F5E123D52B6733F10088EA4D /* FirebaseAuth */,
+			);
 			productName = MapARSample;
 			productReference = F56627792B529D6F00BEFE68 /* MapARSample.app */;
 			productType = "com.apple.product-type.application";
@@ -296,6 +339,9 @@
 				Base,
 			);
 			mainGroup = F56627702B529D6F00BEFE68;
+			packageReferences = (
+				F5E123C82B6730010088EA4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F566277A2B529D6F00BEFE68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,8 +358,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E123412B620CB70088EA4D /* Iphone.usdz in Resources */,
+				F5E1233F2B620AA40088EA4D /* Magnet.usdz in Resources */,
+				F5E123432B620E160088EA4D /* nathan.usdz in Resources */,
 				F56627852B529D7000BEFE68 /* Preview Assets.xcassets in Resources */,
 				F56627812B529D7000BEFE68 /* Assets.xcassets in Resources */,
+				F5E123C72B672F6E0088EA4D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,19 +388,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E123CC2B6732D40088EA4D /* SignInView.swift in Sources */,
+				F5E123D32B67338D0088EA4D /* HelloPage.swift in Sources */,
+				F5E123492B66822A0088EA4D /* Coordinator.swift in Sources */,
+				F5E123452B6211DB0088EA4D /* CameraARView.swift in Sources */,
+				F5E123472B66816B0088EA4D /* RulerView.swift in Sources */,
+				F5E8396A2B61BFEE0017EB3D /* ThirdView.swift in Sources */,
+				F5E123D12B6733350088EA4D /* ResetPasswordPage.swift in Sources */,
+				F5E123CF2B6733070088EA4D /* SignUpView.swift in Sources */,
 				F56627BC2B52DABA00BEFE68 /* ARViewModel.swift in Sources */,
 				F56627C32B52DFC500BEFE68 /* MapView.swift in Sources */,
 				F56627AB2B52C86600BEFE68 /* SecondView.swift in Sources */,
-				F56627CC2B53208100BEFE68 /* ARViewContainer.swift in Sources */,
+				F5E123CA2B67307E0088EA4D /* AuthViewModel.swift in Sources */,
 				F56627AD2B52CAB200BEFE68 /* ContentView.swift in Sources */,
-				F56627CE2B53227E00BEFE68 /* ARScene.swift in Sources */,
 				F56627C52B52E29400BEFE68 /* MapViewModel.swift in Sources */,
 				F56627B62B52CD0400BEFE68 /* MapData.swift in Sources */,
 				F566277D2B529D6F00BEFE68 /* MapARSampleApp.swift in Sources */,
 				F56627C02B52DE2900BEFE68 /* ToolbarButtons.swift in Sources */,
 				F56627B42B52CB2400BEFE68 /* SecondViewModel.swift in Sources */,
 				F56627BE2B52DB3100BEFE68 /* ARData.swift in Sources */,
-				F56627BA2B52D9F500BEFE68 /* ARContentView.swift in Sources */,
 				F56627B82B52CD1C00BEFE68 /* SecoundViewData.swift in Sources */,
 				F56627B12B52CAE800BEFE68 /* ContentViewModel.swift in Sources */,
 			);
@@ -517,6 +573,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "カメラのアクセスを許可";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photoライブラリの使用許可";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -556,6 +613,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "カメラのアクセスを許可";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photoライブラリの使用許可";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -711,6 +769,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5E123C82B6730010088EA4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5E123D52B6733F10088EA4D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5E123C82B6730010088EA4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F56627712B529D6F00BEFE68 /* Project object */;
 }

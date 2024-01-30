@@ -6,9 +6,6 @@ extension CLLocationCoordinate2D {
 }
 struct MapView: View{
   var body: some View{
-//    Map{
-//      Marker("Tsu-Station", systemImage:"train.side.front.car", coordinate: .tus_station).tint(.blue)
-//    }
     Map()
   }
 }

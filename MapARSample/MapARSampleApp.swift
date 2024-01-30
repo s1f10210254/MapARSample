@@ -1,27 +1,30 @@
-//
-//  MapARSampleApp.swift
-//  MapARSample
-//
-//  Created by Hiroki on 2024/01/13.
-//
-
 import SwiftUI
-import ARKit
-@main
-struct MapARSampleApp: App {
-  @UIApplicationDelegateAdaptor(Appdelegate.self) var appDelegate
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+import FirebaseCore
 
-class Appdelegate: NSObject, UIApplicationDelegate{
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions lanchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    if !ARWorldTrackingConfiguration.supportsFrameSemantics(.sceneDepth){
-      print("does not support AR")
-    }
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    FirebaseApp.configure()
+
     return true
   }
+}
+
+@main
+struct MapARSampleApp: App {
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+          @StateObject var viewModel = AuthViewModel()
+
+          var body: some Scene {
+              WindowGroup {
+                  // ログイン状態によって画面遷移するページを変更する
+                  if viewModel.isAuthenticated {
+//                      HelloPage(viewModel: viewModel)
+                    ContentView();
+                  } else {
+                      SignInView(viewModel: viewModel)
+                  }
+              }
+          }
 }
