@@ -57,8 +57,14 @@ class SNSViewModel: ObservableObject {
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
 
+      let userData: [String: Any] = [
+        "uid" : uid,
+        "userId": userId,
+        "NickName" : nickname
+      ]
+
         do {
-            let jsonData = try JSONSerialization.data(withJSONObject: [:])  // Provide your actual data here if needed
+            let jsonData = try JSONSerialization.data(withJSONObject: userData)  // Provide your actual data here if needed
             request.httpBody = jsonData
         } catch {
             print("Error creating JSON data: \(error.localizedDescription)")
