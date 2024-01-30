@@ -3,18 +3,18 @@ import FirebaseAuth
 
 class AuthViewModel: ObservableObject {
   @Published var isAuthenticated = false
-
+  
   @Published var uid: String?
   @Published var userId: String?
   @Published var NickName: String?
-
+  
   @StateObject var snsViewModel = SNSViewModel()
-
+  
   // イニシャライザメソッドを呼び出して、アプリの起動時に認証状態をチェックする
   init() {
     observeAuthChanges()
   }
-
+  
   private func observeAuthChanges() {
     Auth.auth().addStateDidChangeListener { [weak self] _, user in
       DispatchQueue.main.async {
@@ -34,9 +34,9 @@ class AuthViewModel: ObservableObject {
       }
     }
   }
-
-
-
+  
+  
+  
   // 新規登録するメソッド
   //  func signUp(email: String, password: String) {
   //    Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
@@ -48,35 +48,39 @@ class AuthViewModel: ObservableObject {
   //      }
   //    }
   //  }
-
+  
   func signUp(email: String, password: String, NickName: String, userId: String){
     Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
       DispatchQueue.main.async{
         if let result = result, error == nil{
           self?.uid = result.user.uid
-//          self?.userId = "sampleUserId"
-//          self?.NickName = "sampleNickName"
+          //          self?.userId = "sampleUserId"
+          //          self?.NickName = "sampleNickName"
           self?.NickName = NickName
           self?.userId = userId
-
+          
+          
           if let unwrappedUserUid = self?.uid,
              let unwrappedUserId = self?.userId,
              let unwrapperdNickName = self?.NickName{
-              self?.snsViewModel.postUserData(uid: unwrappedUserUid, userId: unwrappedUserId, nickname:  unwrapperdNickName)
-              self?.isAuthenticated = true
-
+            self?.snsViewModel.postUserData(uid: unwrappedUserUid, userId: unwrappedUserId, nickname:  unwrapperdNickName)
           }else{
-            print("Nickname is nil")
+            print("userdata are nil")
           }
+          
+          self?.isAuthenticated = true
+          
+          
+          
         }else{
           print("Eroor in sign up: \(error?.localizedDescription ?? "Unknown error")")
         }
       }
     }
   }
-
-
-
+  
+  
+  
   // パスワードをリセットするメソッド
   func resetPassword(email: String) {
     Auth.auth().sendPasswordReset(withEmail: email) { error in
@@ -85,8 +89,8 @@ class AuthViewModel: ObservableObject {
       }
     }
   }
-
-
+  
+  
   // ログアウトするメソッド
   func signOut() {
     do {
