@@ -25,6 +25,7 @@
 		F56627C32B52DFC500BEFE68 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627C22B52DFC500BEFE68 /* MapView.swift */; };
 		F56627C52B52E29400BEFE68 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56627C42B52E29400BEFE68 /* MapViewModel.swift */; };
 		F576FAB02B6914EC00FE209E /* SNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F576FAAF2B6914EC00FE209E /* SNSView.swift */; };
+		F576FAB22B691F9B00FE209E /* SNSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F576FAB12B691F9B00FE209E /* SNSViewModel.swift */; };
 		F5E1233F2B620AA40088EA4D /* Magnet.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E1233E2B620AA40088EA4D /* Magnet.usdz */; };
 		F5E123412B620CB70088EA4D /* Iphone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E123402B620CB70088EA4D /* Iphone.usdz */; };
 		F5E123432B620E160088EA4D /* nathan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5E123422B620E160088EA4D /* nathan.usdz */; };
@@ -81,6 +82,7 @@
 		F56627C22B52DFC500BEFE68 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F56627C42B52E29400BEFE68 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		F576FAAF2B6914EC00FE209E /* SNSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSView.swift; sourceTree = "<group>"; };
+		F576FAB12B691F9B00FE209E /* SNSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSViewModel.swift; sourceTree = "<group>"; };
 		F5E1233E2B620AA40088EA4D /* Magnet.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Magnet.usdz; sourceTree = "<group>"; };
 		F5E123402B620CB70088EA4D /* Iphone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Iphone.usdz; sourceTree = "<group>"; };
 		F5E123422B620E160088EA4D /* nathan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = nathan.usdz; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 				F56627C42B52E29400BEFE68 /* MapViewModel.swift */,
 				F56627B32B52CB2400BEFE68 /* SecondViewModel.swift */,
 				F56627BB2B52DABA00BEFE68 /* ARViewModel.swift */,
+				F576FAB12B691F9B00FE209E /* SNSViewModel.swift */,
 				F5E123C92B67307E0088EA4D /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
@@ -403,6 +406,7 @@
 				F56627C32B52DFC500BEFE68 /* MapView.swift in Sources */,
 				F56627AB2B52C86600BEFE68 /* SecondView.swift in Sources */,
 				F5E123CA2B67307E0088EA4D /* AuthViewModel.swift in Sources */,
+				F576FAB22B691F9B00FE209E /* SNSViewModel.swift in Sources */,
 				F56627AD2B52CAB200BEFE68 /* ContentView.swift in Sources */,
 				F576FAB02B6914EC00FE209E /* SNSView.swift in Sources */,
 				F56627C52B52E29400BEFE68 /* MapViewModel.swift in Sources */,

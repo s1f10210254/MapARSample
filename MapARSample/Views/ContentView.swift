@@ -4,7 +4,6 @@ import MapKit
 
 struct ContentView: View {
   @StateObject private var viewModel = ContentViewModel()
-
   var body: some View {
     NavigationView {
       MapView()
@@ -12,10 +11,12 @@ struct ContentView: View {
         ToolbarButtons()
       }
     }
+
     .environmentObject(viewModel)
+
   }
 }
 
-//#Preview {
-//  ContentView()
-//}
+#Preview {
+  ContentView()
+}

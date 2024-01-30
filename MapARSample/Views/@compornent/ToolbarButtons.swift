@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ToolbarButtons: View {
+  @StateObject var viewModel = AuthViewModel()
+
   var body: some View {
     HStack{
       NavigationLink(
@@ -25,6 +27,13 @@ struct ToolbarButtons: View {
         destination: RulerView(),
         label: {
           Text("Ruler")
+        }
+      )
+
+      NavigationLink(
+        destination: HelloPage(viewModel: viewModel),
+        label: {
+          Text("Logout")
         }
       )
 
