@@ -11,20 +11,30 @@ class AppDelegate: NSObject, UIApplicationDelegate {
   }
 }
 
-@main
-struct MapARSampleApp: App {
-  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-          @StateObject var viewModel = AuthViewModel()
+//@main
+//struct MapARSampleApp: App {
+//  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+//          @StateObject var viewModel = AuthViewModel()
+//
+//          var body: some Scene {
+//              WindowGroup {
+//                  // ログイン状態によって画面遷移するページを変更する
+//                  if viewModel.isAuthenticated {
+////                      HelloPage(viewModel: viewModel)
+//                    ContentView();
+//                  } else {
+//                      SignInView(viewModel: viewModel)
+//                  }
+//              }
+//          }
+//}
 
-          var body: some Scene {
-              WindowGroup {
-                  // ログイン状態によって画面遷移するページを変更する
-                  if viewModel.isAuthenticated {
-//                      HelloPage(viewModel: viewModel)
-                    ContentView();
-                  } else {
-                      SignInView(viewModel: viewModel)
-                  }
-              }
-          }
+@main
+struct SwiftUI_PlaygroundApp: App {
+    @State static var presentSideMenu = false
+    var body: some Scene {
+        WindowGroup {
+            MainTabView()
+        }
+    }
 }
