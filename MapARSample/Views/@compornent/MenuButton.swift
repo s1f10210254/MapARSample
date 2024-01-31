@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MenuButtonView: View{
+struct MenuButton: View{
   @State private var isMenuOpen = false
 
   var body: some View{
@@ -8,8 +8,9 @@ struct MenuButtonView: View{
       Spacer()
       Text("Hello")
         .font(.title)
-        
+
       Spacer()
+
 
       if isMenuOpen{
         NavigationView{
@@ -24,6 +25,18 @@ struct MenuButtonView: View{
               destination: SecondView(viewModel: SecondViewModel()),
               label: {
                 Text("secound")
+              }
+            )
+            NavigationLink(
+              destination: ThirdView(),
+              label: {
+                Text("AR")
+              }
+            )
+            NavigationLink(
+              destination: RulerView(),
+              label: {
+                Text("Ruler")
               }
             )
           }
@@ -47,6 +60,6 @@ struct MenuButtonView: View{
 
 struct MenuButtonView_Previews: PreviewProvider{
   static var previews: some View{
-    MenuButtonView()
+    MenuButton()
   }
 }

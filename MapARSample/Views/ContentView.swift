@@ -10,6 +10,8 @@ struct ContentView: View {
       .toolbar{
         ToolbarButtons()
       }
+
+
     }
 
     .environmentObject(viewModel)
@@ -17,6 +19,6 @@ struct ContentView: View {
   }
 }
 
-#Preview {
-  ContentView()
-}
+//#Preview {
+//  ContentView()
+//}
