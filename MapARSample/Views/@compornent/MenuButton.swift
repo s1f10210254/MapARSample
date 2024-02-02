@@ -58,8 +58,8 @@ struct MenuButton: View{
   }
 }
 
-struct MenuButtonView_Previews: PreviewProvider{
-  static var previews: some View{
-    MenuButton()
-  }
-}
+//struct MenuButtonView_Previews: PreviewProvider{
+//  static var previews: some View{
+//    MenuButton()
+//  }
+//}

@@ -8,15 +8,20 @@ struct MainTabView: View {
         ZStack {
             TabView(selection: $selectedSideMenuTab) {
                 HomeView(presentSideMenu: $presentSideMenu)
+                .tabItem { Label("Home", systemImage:"1.circle" )}
                     .tag(0)
                 PostView(presentSideMenu: $presentSideMenu)
+                .tabItem { Label("Post", systemImage:"2.circle" )}
                     .tag(1)
                 NewsView(presentSideMenu: $presentSideMenu)
+                .tabItem { Label("News", systemImage:"3.circle" )}
                     .tag(2)
                 SettingView(presentSideMenu: $presentSideMenu)
+                .tabItem { Label("System", systemImage:"4.circle" )}
                     .tag(3)
             }
-            SideMenu(isShowing: $presentSideMenu, content: AnyView(SideMenuView(selectedSideMenuTab: $selectedSideMenuTab, presentSideMenu: $presentSideMenu)))
+          SideMenu(isShowing: $presentSideMenu, content: AnyView(SideMenuView(selectedSideMenuTab: $selectedSideMenuTab, presentSideMenu: $presentSideMenu)))
+
         }
     }
 }

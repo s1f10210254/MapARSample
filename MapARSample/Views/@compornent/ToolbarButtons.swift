@@ -30,12 +30,12 @@ struct ToolbarButtons: View {
         }
       )
 
-      NavigationLink(
-        destination: HelloPage(viewModel: viewModel),
-        label: {
-          Text("Logout")
-        }
-      )
+//      NavigationLink(
+//        destination: HelloPage(viewModel: viewModel),
+//        label: {
+//          Text("Logout")
+//        }
+//      )
 
     }
   }

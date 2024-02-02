@@ -6,6 +6,7 @@ struct TabItemView: View {
     let title: String
 
     var body: some View {
+//      Color.yellow
         VStack {
             HStack {
                 Button {
@@ -18,9 +19,6 @@ struct TabItemView: View {
                 }
                 Spacer()
             }
-            Spacer()
-            Text(title)
-                .font(.system(size: 32, weight: .medium))
             Spacer()
         }
     }
